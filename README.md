@@ -1,6 +1,14 @@
 # codelist-compare
 This tool creates a comparison spreadsheet comparing two or more versions of a code list.
 
+# Command Line
+
+    java -cp saxon.jar net.sf.saxon.Query -q:compare.xqy -s:test.xml -o:test-compare.xml code-title=*title* order-type=(alpha|numeric-alpha)
+
+# Saxonica Requirements
+
+Since this code uses XQuery version 3.0 and higher order functions, this requires a licensed copy of Saxon PE to run.  There are other implementations of XQuery 3.0, so make your 
+
 # Example
 
 The following is an example with four different versions of a code list.
