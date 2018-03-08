@@ -28,7 +28,7 @@ The following is an example with four different versions of a code list.
 
 ## Input
 
-These are the four inputs.  Each is a tab 
+These are the four versions of a code list as inputs.  Each is a tab 
 in an XML Spreadsheet 2003 format Excel 
 file.  The tabs are in the following order.
 
