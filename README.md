@@ -3,7 +3,20 @@ This tool creates a comparison spreadsheet comparing two or more versions of a c
 
 # Command Line
 
-    java -cp saxon.jar net.sf.saxon.Query -q:compare.xqy -s:test.xml -o:test-compare.xml code-title=*title* order-type=(alpha|numeric-alpha)
+    java -cp saxon.jar net.sf.saxon.Query -q:compare.xqy -s:test.xml -o:test-compare.xml code-title=title order-type=(alpha|numeric-alpha)
+
+
+| Option | Description |
+|--|--|
+| -q | The query file (compare.xqy) |
+| -s | The input file |
+| -o | The output file |
+
+
+| Parameter | Description |
+|--|--|
+| code-title | the name of the comparison tab on the spreadsheet |
+| order-type | How are the codes sorted, 'alpha' - plain ascending sort on the code (default) and 'numeric-alpha' where it is sorted by first the numeric value in the code and second being the non-numeric characters in the code. |
 
 # Saxonica Requirements
 
