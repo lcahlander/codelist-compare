@@ -20,7 +20,7 @@ This tool creates a comparison spreadsheet comparing two or more versions of a c
 
 # Saxonica Requirements
 
-Since this code uses XQuery version 3.0 and higher order functions, this requires a licensed copy of Saxon PE to run.  There are other implementations of XQuery 3.0, so make your 
+Since this code uses XQuery version 3.0 and higher order functions, this requires a licensed copy of Saxon PE to run.  There are other implementations of XQuery 3.0.
 
 # Example
 
